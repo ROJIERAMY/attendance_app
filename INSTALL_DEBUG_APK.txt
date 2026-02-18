@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════
+  تثبيت Debug APK (الأسهل والأكثر موثوقية)
+═══════════════════════════════════════════════════════
+
+تم إنشاء نسخة Debug أسهل للتثبيت:
+الملف: attendance-system-debug.apk
+
+═══════════════════════════════════════════════════════
+الخطوات السريعة:
+═══════════════════════════════════════════════════════
+
+1. انقل attendance-system-debug.apk إلى الجهاز اللوحي
+
+2. فعّل Developer Options:
+   Settings → About tablet → اضغط 7 مرات على "Build number"
+
+3. فعّل USB Debugging:
+   Settings → Developer options → USB debugging (ON)
+
+4. فعّل Install via USB:
+   Settings → Developer options → Install via USB (ON)
+
+5. فعّل Unknown Sources:
+   - Android 8.0+: Settings → Apps → Files → Install unknown apps (ON)
+   - Android 7.0: Settings → Security → Unknown sources (ON)
+
+6. افتح File Manager → اضغط على APK → Install
+
+═══════════════════════════════════════════════════════
+إذا لم يعمل، استخدم ADB:
+═══════════════════════════════════════════════════════
+
+1. حمّل Android Platform Tools من:
+   https://developer.android.com/studio/releases/platform-tools
+
+2. وصّل الجهاز بالكمبيوتر عبر USB
+
+3. فعّل USB Debugging على الجهاز
+
+4. على الكمبيوتر، شغّل:
+   adb install attendance-system-debug.apk
+
+═══════════════════════════════════════════════════════
+
+

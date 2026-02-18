@@ -1,0 +1,8 @@
+{"name": "attendance-system", "version": "1.2.0", "description": "???? ?????? ???????", "main": "main.js", "scripts": {
+  "start": "electron .",
+  "pack:offline": "electron-packager . attendance-system-offline --platform=win32 --arch=x64 --out=dist --overwrite -- --entry=attendance-offline.html",
+  "pack:online": "electron-packager . attendance-system-online --platform=win32 --arch=x64 --out=dist --overwrite -- --entry=attendance-online.html",
+  "pack": "npm run pack:offline && npm run pack:online",
+  "build": "npm run pack"
+},
+ "keywords": ["attendance", "electron", "arabic"], "author": "Rojie Ramy", "license": "MIT", "devDependencies": {"electron": "^39.2.2", "electron-packager": "^17.1.2"}}
