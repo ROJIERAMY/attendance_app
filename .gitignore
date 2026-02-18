@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Electron / build outputs
+dist/
+out/
+
+# Android / Gradle build outputs
+android-attendance-app/.gradle/
+android-attendance-app/**/build/
+android-attendance-app/**/.cxx/
+android-attendance-app/**/.idea/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+
